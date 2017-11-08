@@ -1,0 +1,41 @@
+D:\opensource\jorge-henao\beerbot\obj\Debug\beerbot.csprojResolveAssemblyReference.cache
+D:\opensource\jorge-henao\beerbot\obj\Debug\beerbot.csproj.CoreCompileInputs.cache
+D:\opensource\jorge-henao\beerbot\bin\Bot Application.dll.config
+D:\opensource\jorge-henao\beerbot\bin\Bot Application.dll
+D:\opensource\jorge-henao\beerbot\bin\Bot Application.pdb
+D:\opensource\jorge-henao\beerbot\bin\Autofac.dll
+D:\opensource\jorge-henao\beerbot\bin\Chronic.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Builder.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Connector.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Rest.ClientRuntime.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\opensource\jorge-henao\beerbot\bin\Newtonsoft.Json.dll
+D:\opensource\jorge-henao\beerbot\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\opensource\jorge-henao\beerbot\bin\System.Net.Http.Formatting.dll
+D:\opensource\jorge-henao\beerbot\bin\System.Web.Http.dll
+D:\opensource\jorge-henao\beerbot\bin\System.Web.Http.WebHost.dll
+D:\opensource\jorge-henao\beerbot\bin\Autofac.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Builder.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Connector.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\opensource\jorge-henao\beerbot\bin\Newtonsoft.Json.xml
+D:\opensource\jorge-henao\beerbot\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\opensource\jorge-henao\beerbot\bin\System.Net.Http.Formatting.xml
+D:\opensource\jorge-henao\beerbot\bin\System.Web.Http.xml
+D:\opensource\jorge-henao\beerbot\bin\System.Web.Http.WebHost.xml
+D:\opensource\jorge-henao\beerbot\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\obj\Debug\Bot Application.dll
+D:\opensource\jorge-henao\beerbot\obj\Debug\Bot Application.pdb

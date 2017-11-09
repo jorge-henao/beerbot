@@ -112,8 +112,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="BeerData\BeerVision.cs" />
-    <Compile Include="BeerData\PredictionResponse.cs" />
+    <Compile Include="BeerData\BreweryDB.cs" />
+    <Compile Include="BeerData\GetBeerResponse.cs" />
+    <Compile Include="BeerData\SearchBeerResponse.cs" />
+    <Compile Include="BeerVision\BeerVision.cs" />
+    <Compile Include="BeerVision\PredictionResponse.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
     <Compile Include="Dialogs\ReceiveAttachmentDialog.cs" />
     <Compile Include="Dialogs\RootDialog.cs" />
@@ -133,6 +136,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

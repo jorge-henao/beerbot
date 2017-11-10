@@ -42,11 +42,26 @@
 
                     BeerVision beerVision = new BeerVision();
                     var beerBrand = await beerVision.IdentifyBeer(picBytes);
-
+                    
                     if (beerBrand != null)
                     {
-                        //await context.PostAsync($"Parece que se trata de una cerveza {beerBrand}");
-                        await ShowBeerData(beerBrand, context, argument);
+                        if (beerBrand == "redds")
+                        {
+                            var gayPic = await GetInternetAttachment("https://pbs.twimg.com/media/C38GsoGUMAQNWKw.jpg");
+                            var replyMessage = context.MakeMessage();
+                            replyMessage.Attachments = new List<Attachment> { gayPic };
+                            await context.PostAsync(replyMessage);
+
+                            await context.PostAsync("¡eso no es una cerveza! es una bebida para m4%1c4$");
+                        }
+                        else if (beerBrand == "desconocida")
+                        {
+                            await context.PostAsync($"Parece que se trata de una cerveza {beerBrand}");
+                        }
+                        else
+                        {
+                            await ShowBeerData(beerBrand, context, argument);
+                        }
                     }
                     else
                     {
@@ -58,8 +73,7 @@
             }
             else
             {
-
-                await context.PostAsync("Hi there! I'm a bot created to show you how I can receive message attachments, but no attachment was sent to me. Please, try again sending a new message including an attachment.");
+                await context.PostAsync("Hola! deberías enviarme una imágen de la imágen de una cerveza, intenta de nuevo.");
             }
 
             //context.Done("ok");

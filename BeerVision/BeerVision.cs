@@ -17,7 +17,8 @@ namespace beerbot.BeerData
         {
             var client = new HttpClient();
             client.DefaultRequestHeaders.Add("Prediction-Key", "880fe241a9814b65a93b15078943bc33");
-            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/a6461538-6159-4502-9b15-6ff74f9b4ece/image?iterationId=d463fadd-d3ee-4e20-9f9d-2858bb978b33";
+            //string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/a6461538-6159-4502-9b15-6ff74f9b4ece/image?iterationId=d463fadd-d3ee-4e20-9f9d-2858bb978b33";
+            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/a6461538-6159-4502-9b15-6ff74f9b4ece/image";
 
             HttpResponseMessage response;
             using (var content = new ByteArrayContent(picBytes))

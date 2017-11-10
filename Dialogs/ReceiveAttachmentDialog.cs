@@ -13,7 +13,7 @@
 
     [Serializable]
     internal class ReceiveAttachmentDialog : IDialog<object>
-    {
+    {   
         public async Task StartAsync(IDialogContext context)
         {
             context.Wait(this.MessageReceivedAsync);
@@ -71,7 +71,6 @@
             if (searchResults.data != null & searchResults.data.Count > 0)
             {
                 var beerData = searchResults.data[0];
-
                 if (beerData.labels != null)
                 {
                     var pic = await GetInternetAttachment(beerData.labels.medium);

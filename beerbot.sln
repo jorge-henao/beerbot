@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beerbot", "beerbot.csproj", "{7AABCDB5-FD2A-4104-B198-1F8DCE5D63D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "beerbot.twilio", "beerbot.twilio\beerbot.twilio.csproj", "{DAB923C3-20AF-4662-A8BF-72130F19ED43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7AABCDB5-FD2A-4104-B198-1F8DCE5D63D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AABCDB5-FD2A-4104-B198-1F8DCE5D63D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AABCDB5-FD2A-4104-B198-1F8DCE5D63D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB923C3-20AF-4662-A8BF-72130F19ED43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB923C3-20AF-4662-A8BF-72130F19ED43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB923C3-20AF-4662-A8BF-72130F19ED43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB923C3-20AF-4662-A8BF-72130F19ED43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,9 +19,9 @@ namespace beerbot
             if (activity.Type == ActivityTypes.Message)
             {
                 //if (activity.Attachments.Count > 0)
-                    await Conversation.SendAsync(activity, () => new Dialogs.ReceiveAttachmentDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.ReceiveAttachmentDialog());
                 //else
-                    //await Conversation.SendAsync(activity, () => new Dialogs.RootLuisDialog(activity.ChannelId));
+                //await Conversation.SendAsync(activity, () => new Dialogs.RootLuisDialog(activity.ChannelId));
             }
             else
             {

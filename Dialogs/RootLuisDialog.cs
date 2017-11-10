@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.Luis;
 using Microsoft.Bot.Builder.Luis.Models;
+using Microsoft.Bot.Builder.FormFlow;
+using Microsoft.Bot.Connector;
 
 namespace beerbot.Dialogs
 {
@@ -40,11 +42,22 @@ namespace beerbot.Dialogs
         }
 
 
-        [LuisIntent("Agregar-meta-ahorro")]
-        public async Task AgregarMetaAhorro(IDialogContext context, LuisResult result)
+        [LuisIntent("Pedido")]
+        public async Task BeerOrder(IDialogContext context, LuisResult result)
         {
+            var beerOrderDialog = FormDialog.FromForm(BeerOrderDialog.BuildDialogForm, FormOptions.PromptInStart);
+            context.Call(beerOrderDialog, BeerOrderDialog.OnFormCompleted);
 
         }
+
+        [LuisIntent("Consulta-Cerveza")]
+        public async Task GetBeerData(IDialogContext context, LuisResult result)
+        {
+            var beerOrderDialog = FormDialog.FromForm(BeerOrderDialog.BuildDialogForm, FormOptions.PromptInStart);
+            context.Call(beerOrderDialog, BeerOrderDialog.OnFormCompleted);
+
+        }
+
 
         [LuisIntent("Help")]
         public async Task Help(IDialogContext context, LuisResult result)

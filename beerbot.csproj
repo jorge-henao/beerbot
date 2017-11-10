@@ -118,6 +118,7 @@
     <Compile Include="BeerVision\BeerVision.cs" />
     <Compile Include="BeerVision\PredictionResponse.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
+    <Compile Include="Dialogs\BeerOrderDialog.cs" />
     <Compile Include="Dialogs\ReceiveAttachmentDialog.cs" />
     <Compile Include="Dialogs\RootDialog.cs" />
     <Compile Include="Dialogs\RootLuisDialog.cs" />

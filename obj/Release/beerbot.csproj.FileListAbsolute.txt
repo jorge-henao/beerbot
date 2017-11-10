@@ -39,3 +39,6 @@ D:\opensource\jorge-henao\beerbot\obj\Release\beerbot.csprojResolveAssemblyRefer
 D:\opensource\jorge-henao\beerbot\obj\Release\beerbot.csproj.CoreCompileInputs.cache
 D:\opensource\jorge-henao\beerbot\obj\Release\Bot Application.dll
 D:\opensource\jorge-henao\beerbot\obj\Release\Bot Application.pdb
+D:\opensource\jorge-henao\beerbot\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll

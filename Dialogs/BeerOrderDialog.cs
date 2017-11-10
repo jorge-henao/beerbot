@@ -42,7 +42,8 @@ namespace beerbot.Dialogs
         {
             OnCompletionAsyncDelegate<BeerOrderForm> completedOrder = async (context, state) =>
             {
-                await context.PostAsync($"Listo, tu pedido a {state.addressOrder} está en camino");
+                await context.PostAsync($"Listo, tu pedido de {state.Ammount} cervezas {state.Beer} está en camino a {state.addressOrder}. {Environment.NewLine}¿Te puedo ayudar en algo mas?");
+
             };
 
             return new FormBuilder<BeerOrderForm>()

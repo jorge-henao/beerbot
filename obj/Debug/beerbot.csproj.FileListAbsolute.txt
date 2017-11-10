@@ -39,3 +39,6 @@ D:\opensource\jorge-henao\beerbot\bin\ru\Microsoft.Bot.Builder.resources.dll
 D:\opensource\jorge-henao\beerbot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
 D:\opensource\jorge-henao\beerbot\obj\Debug\Bot Application.dll
 D:\opensource\jorge-henao\beerbot\obj\Debug\Bot Application.pdb
+D:\opensource\jorge-henao\beerbot\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll

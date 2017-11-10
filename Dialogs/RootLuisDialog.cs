@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.Luis;
@@ -14,7 +13,6 @@ namespace beerbot.Dialogs
     public class RootLuisDialog : LuisDialog<object>
     {
         private readonly string channelId;
-        private LuisResult lastIntentDetected;
 
         public RootLuisDialog(string channelId) : base(new LuisService(new LuisModelAttribute("5761a0de-5321-42da-be00-1f2f1d702549", "5e9cbea2a30b49f184b2cbcad31b94f3")))
         {

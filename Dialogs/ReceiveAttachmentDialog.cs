@@ -73,7 +73,7 @@
             }
             else
             {
-                await context.PostAsync("Hola! deberías enviarme una foto de una cerveza, inténtalo de nuevo.");
+                await context.PostAsync("Hola! deberías enviarme la foto de una cerveza, inténtalo de nuevo.");
             }
 
             //context.Done("ok");

@@ -1,4 +1,3 @@
-D:\opensource\jorge-henao\beerbot\obj\Debug\beerbot.csprojResolveAssemblyReference.cache
 D:\opensource\jorge-henao\beerbot\obj\Debug\beerbot.csproj.CoreCompileInputs.cache
 D:\opensource\jorge-henao\beerbot\bin\Bot Application.dll.config
 D:\opensource\jorge-henao\beerbot\bin\Bot Application.dll
@@ -42,3 +41,19 @@ D:\opensource\jorge-henao\beerbot\obj\Debug\Bot Application.pdb
 D:\opensource\jorge-henao\beerbot\bin\it\Microsoft.Bot.Builder.resources.dll
 D:\opensource\jorge-henao\beerbot\bin\nl\Microsoft.Bot.Builder.resources.dll
 D:\opensource\jorge-henao\beerbot\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Logging.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocols.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Tokens.dll
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Builder.pdb
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Bot.Builder.Autofac.pdb
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Logging.pdb
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Logging.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocols.pdb
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocols.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.pdb
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Tokens.pdb
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.IdentityModel.Tokens.xml
+D:\opensource\jorge-henao\beerbot\bin\Microsoft.Rest.ClientRuntime.xml
+D:\opensource\jorge-henao\beerbot\bin\System.IdentityModel.Tokens.Jwt.pdb

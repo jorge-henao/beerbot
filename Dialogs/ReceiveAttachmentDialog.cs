@@ -10,6 +10,7 @@
     using Microsoft.Bot.Connector;
     using beerbot.BeerData;
     using System.Collections.Generic;
+    using beerbot.BeerData.Untappd;
 
     [Serializable]
     internal class ReceiveAttachmentDialog : IDialog<object>
@@ -82,14 +83,16 @@
 
         private async Task ShowBeerData(string beerName, IDialogContext context, IAwaitable<IMessageActivity> argument)
         {
-            BreweryDB breweryDB = new BreweryDB();
+            
+            BeerSearcher breweryDB = new BeerSearcher();
             var searchResults = await breweryDB.SearchBeer(beerName);
-            if (searchResults.data != null & searchResults.data.Count > 0)
+            if (searchResults.response.beers.count > 0)
             {
-                var beerData = searchResults.data[0];
-                if (beerData.labels != null)
+                var beerData = searchResults.response.beers.items[0].beer;
+                if (beerData != null)
                 {
-                    var pic = await GetInternetAttachment(beerData.labels.medium);
+                    //var pic = await GetInternetAttachment(beerData.labels.medium);
+                    var pic = await GetInternetAttachment(beerData.beer_label);
                     var replyMessage = context.MakeMessage();
                     replyMessage.Attachments = new List<Attachment> { pic };
                     await context.PostAsync(replyMessage);
@@ -100,17 +103,17 @@
             }
         }
 
-        private async Task<string> GetBeerDataString(BeerData beerData)
+        private async Task<string> GetBeerDataString(Beer beerData)
         {
             string result = string.Empty;
 
-            var beerStyle = beerData.style != null ? beerData.style.shortName : string.Empty;
-            var beerIBU = beerData.ibu != null ? $" - {beerData.ibu} IBU" : string.Empty;
+            var beerStyle = beerData.beer_style != null ? beerData.beer_style : string.Empty;
+            var beerIBU = $" - {beerData.beer_ibu} IBU";
 
-            result = $"{beerData.nameDisplay}"
+            result = $"{beerData.beer_name}"
                 + $"{Environment.NewLine} {beerStyle}"
-                + $"{Environment.NewLine} {beerData.abv}% ABV {beerIBU}"
-                + $"{Environment.NewLine}{Environment.NewLine} {beerData.description}";
+                + $"{Environment.NewLine} {beerData.beer_abv} % ABV {beerIBU}"
+                + $"{Environment.NewLine}{Environment.NewLine} {beerData.beer_description}";
 
 
             return result;

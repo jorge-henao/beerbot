@@ -124,6 +124,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="BeerData\SearchBeerResponse2.cs" />
+    <Compile Include="BeerData\Untappd.cs" />
     <Compile Include="BeerData\BreweryDB.cs" />
     <Compile Include="BeerData\GetBeerResponse.cs" />
     <Compile Include="BeerData\SearchBeerResponse.cs" />
